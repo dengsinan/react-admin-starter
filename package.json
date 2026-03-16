@@ -16,6 +16,8 @@
   "dependencies": {
     "@ant-design/cssinjs": "^2.1.2",
     "@tailwindcss/vite": "^4.2.1",
+    "@tanstack/react-router": "^1.167.3",
+    "@tanstack/react-router-devtools": "^1.166.9",
     "antd": "^6.3.2",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
@@ -28,6 +30,8 @@
     "@commitlint/config-conventional": "^20.4.4",
     "@eslint-react/eslint-plugin": "^2.13.0",
     "@rolldown/plugin-babel": "^0.2.0",
+    "@tanstack/eslint-plugin-router": "^1.161.6",
+    "@tanstack/router-plugin": "^1.166.12",
     "@types/babel__core": "^7.20.5",
     "@types/node": "^24.12.0",
     "@types/react": "^19.2.14",
