@@ -1,5 +1,5 @@
 {
-  "name": "react-template-demo",
+  "name": "react-template",
   "type": "module",
   "version": "0.0.0",
   "private": true,
@@ -9,8 +9,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
-    "lint:style": "stylelint \"**/*.{css,scss,less,html}\"",
-    "lint:style:fix": "stylelint \"**/*.{css,scss,less,html}\" --fix",
+    "lint:style": "stylelint \"**/*.{css,scss,less}\"",
+    "lint:style:fix": "stylelint \"**/*.{css,scss,less}\" --fix",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -22,6 +22,7 @@
     "@babel/core": "^7.29.0",
     "@commitlint/cli": "^20.4.4",
     "@commitlint/config-conventional": "^20.4.4",
+    "@eslint-react/eslint-plugin": "^2.13.0",
     "@rolldown/plugin-babel": "^0.2.0",
     "@types/babel__core": "^7.20.5",
     "@types/node": "^24.12.0",
@@ -30,6 +31,8 @@
     "@vitejs/plugin-react": "^6.0.0",
     "babel-plugin-react-compiler": "^1.0.0",
     "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
     "lint-staged": "^16.4.0",
     "simple-git-hooks": "^2.13.1",
     "stylelint": "^17.4.0",
@@ -46,7 +49,7 @@
     "*.{js,jsx,ts,tsx,json,md,yaml,yml}": [
       "eslint --fix"
     ],
-    "*.{css,scss,less,html}": [
+    "*.{css,scss,less}": [
       "stylelint --fix"
     ]
   }
