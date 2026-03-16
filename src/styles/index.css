@@ -1,0 +1,4 @@
+@layer theme, base, antd, components, utilities;
+
+/* stylelint-disable-next-line import-notation */
+@import 'tailwindcss';
