@@ -14,7 +14,7 @@
     "paths": {
       "@/*": ["src/*"]
     },
-    "types": ["vite/client"],
+    "types": ["vite/client", "unplugin-icons/types/react"],
     "allowImportingTsExtensions": true,
 
     /* Linting */
@@ -28,5 +28,5 @@
     "skipLibCheck": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src"]
+  "include": ["src", "auto-imports.d.ts"]
 }
