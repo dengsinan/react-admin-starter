@@ -3,7 +3,6 @@
     "Activity": true,
     "FC": true,
     "Fragment": true,
-    "IconCustomHourglass": true,
     "Suspense": true,
     "cache": true,
     "cacheSignal": true,
